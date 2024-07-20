@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>AS - PARTE 1</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Calculadora Simples</a></li>
+            <li><a href="notas.html">Cálculo de Notas</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Calculadora Simples</h1>
+        <form>
+            <label for="">Número 1:</label>
+            <input id="numero1" type="number" placeholder="Digite um número">
+            <br><br>
+            <label for="">Número 2:</label>
+            <input id="numero2" type="number" placeholder="Digite um número">
+            <br><br>
+            <button class="somar" onclick="somar()" type="button">Somar</button>
+            <button class="subtrair" onclick="subtrair()" type="button">Subtrair</button>
+            <button class="multiplicar" onclick="multiplicar()" type="button">Multiplicar</button>
+            <button class="dividir" onclick="dividir()" type="button">Dividir</button>
+            <button class="limpar" onclick="limpar()" type="button">Limpar</button>
+            <br><br>
+            
+            <h2 id="resultado">Resultado:</h2>
+        </form>
+        
+    </section>
+    <footer class="text-white text-center p-1 d-flex align-items-center justify-content-between">
+        <p>&copy; Desenvolvido por Haslan Borges Daitx</p>
+            <a href="https://github.com/HaslanDaitx" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/haslan-daitx-bb303743/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

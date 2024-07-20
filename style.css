@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url("./Imagens/Fundoheadernovo.png");
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+body{
+    background-image: url("./Imagens/Fundosite.png");
+
+}
+
+header h1 {
+    color: white;
+    font-size: 60px;
+}
+section h1{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto 30px;
+    max-width: 600px
+}
+
+input {
+    font-size: 30px;
+}
+
+label {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+button {
+    font-size: 19px;
+    padding: 15px 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.somar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.somar:hover {
+    background-color: #45a049;
+}
+
+.subtrair {
+    background-color: #f44336;
+    color: white;
+}
+
+.subtrair:hover {
+    background-color: #da190b;
+}
+
+.multiplicar {
+    background-color: #008CBA;
+    color: white;
+}
+
+.multiplicar:hover {
+    background-color: #007bb5;
+}
+
+.dividir {
+    background-color: #ff9800;
+    color: white;
+}
+
+.dividir:hover {
+    background-color: #e68900;
+}
+
+.limpar {
+    font-size: 25px;
+    height: 50px;
+    width: 550px;
+    padding: 10px 25px;
+    background-color: #9E9E9E;
+    color: white;
+}
+
+.limpar:hover {
+    background-color: #757575;
+}
+nav{
+    background-color: black;
+    color: white;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px; 
+    left: 0;
+    width: 100%;
+    z-index: 1000;   
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+}
+
+nav a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav a:hover {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #da190b;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 80px;
+    align-items: center;
+    margin-top: 70px;
+    width: 100%;
+}
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+}
+footer a{
+    padding-right: 30px;
+    color: white
+}
